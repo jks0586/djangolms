@@ -1,0 +1,11 @@
+Steps to make process in django step by step
+
+1. :python -m venv djangolms
+2. :djangolms\Scripts\activate.bat
+3. :python -m pip install Django
+4. :django-admin --version
+5. :python -m pip install colorama
+6. to create a project 
+ : django-admin startproject lms
+7. pip install mysqlclient
+8. python manage.py migrate
