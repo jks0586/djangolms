@@ -9,3 +9,5 @@ Steps to make process in django step by step
  : django-admin startproject lms
 7. pip install mysqlclient
 8. python manage.py migrate
+9. python manage.py startapp blog
+10. python manage.py createsuperuser
