@@ -7,7 +7,11 @@ Steps to make process in django step by step
 5. :python -m pip install colorama
 6. to create a project 
  : django-admin startproject lms
+   python manage.py runserver
 7. pip install mysqlclient
 8. python manage.py migrate
 9. python manage.py startapp blog
+10. python manage.py makemigrations
+11. python manage.py migrate
+
 10. python manage.py createsuperuser
